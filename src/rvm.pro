@@ -119,4 +119,4 @@ FORMS += \
     main/ui/VideoView.ui
 
 # Spare me those nasty C++ compiler warnings and pray instead
-QMAKE_CXXFLAGS += -W2
+# QMAKE_CXXFLAGS += -W2
