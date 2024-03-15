@@ -26,11 +26,11 @@
 #define MAINWINDOW_H
 
 // Qt
-#include <QMainWindow>
-#include <QPushButton>
-#include <QShortcut>
-#include <QLabel>
-#include <QMessageBox>
+#include <QtWidgets/QMainWindow>
+#include <QtWidgets/QPushButton>
+#include <QtWidgets/QShortcut>
+#include <QtWidgets/QLabel>
+#include <QtWidgets/QMessageBox>
 #include <QUrl>
 // Local
 #include "main/ui/CameraConnectDialog.h"

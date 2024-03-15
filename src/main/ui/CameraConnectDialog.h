@@ -26,15 +26,15 @@
 #define CAMERACONNECTDIALOG_H
 
 // Qt
-#include <QDialog>
-#include <QFileDialog>
+#include <QtWidgets/QDialog>
+#include <QtWidgets/QFileDialog>
 #include <QtCore/QThread>
-#include <QMessageBox>
+#include <QtWidgets/QMessageBox>
 #include <QDebug>
 // Local
 #include "main/other/Config.h"
 // OpenCV
-#include <opencv2/highgui/highgui.hpp>
+#include <opencv4/opencv2/highgui/highgui.hpp>
 
 namespace Ui {
 class CameraConnectDialog;
