@@ -6,6 +6,7 @@ linux {
     QT_CONFIG -= no-pkg-config
     CONFIG += link_pkgconfig
     PKGCONFIG += opencv
+	INCLUDEPATH += /usr/include/opencv4
 # !! Not tested, change to match your OpenCV (>= v4) installation #
 ###################################################################
 }
